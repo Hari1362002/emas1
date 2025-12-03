@@ -292,65 +292,28 @@ www.emasindia.com`}].map((i,f)=>s.jsxs("div",{className:"flex items-start gap-3 
             relative z-20 w-full
             h-auto object-cover
             transition-all duration-700 ease-in-out
-          `}),s.jsx("div",{className:"absolute top-6 left-1/2 -translate-x-1/2 z-30",children:s.jsx("h2",{className:"text-3xl md:text-4xl font-bold text-white drop-shadow-xl text-center"})})]})}),Kg=[{title:"Quality Standard",text:"Our commitment to quality is unwavering. Each product undergoes rigorous testing and adheres to the highest industry standards.",base:"from-[#FFE9D1] via-[#FFF7EE] to-[#E2FFF5]"},{title:"Product Uniqueness",text:"Discover unparalleled innovation with our unique products crafted to complement your healthy lifestyle.",base:"from-[#FDE8F2] via-[#FFF4E5] to-[#E4FFF3]"},{title:"Production Management",text:"At the heart of our operations lies a seamless production management system dedicated to precision and excellence.",base:"from-[#F3E9FF] via-[#FFF4E5] to-[#E6FFF4]"}],Fg=()=>{const i=T.useRef([]);return T.useEffect(()=>{if(!(window.innerWidth<768))return;const d=new IntersectionObserver(r=>{r.forEach(m=>{m.isIntersecting&&m.target.classList.add("mobile-active")})},{threshold:.3});return i.current.forEach(r=>r&&d.observe(r)),()=>d.disconnect()},[]),s.jsxs("section",{className:"w-full py-16 md:py-20 px-4 bg-[#F8FFF4]",children:[s.jsx("p",{className:"text-center text-sm md:text-base font-semibold text-[#0d8061] tracking-wide mb-2",children:"PREMIUM PRODUCTS"}),s.jsx("h2",{className:"text-2xl sm:text-3xl md:text-4xl font-extrabold text-center text-[#0F3E2D] mb-12 leading-tight",children:"Elevate your lifestyle with premium products tailored for your health."}),s.jsx("div",{className:"max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8",children:Kg.map((f,d)=>s.jsx("div",{ref:r=>i.current[d]=r,className:`
-              group relative 
-              opacity-0 translate-y-6 
-              mobile-card
-            `,children:s.jsx("div",{className:`
-                p-[2px] rounded-2xl h-full bg-gradient-to-r ${f.base}
-                shadow-[0_0_18px_rgba(0,0,0,0.08)]
-                transition-all duration-700
-                group-hover:scale-[1.02] group-hover:-translate-y-1
-              `,children:s.jsxs("div",{className:`
-                  relative p-6 sm:p-6 md:p-7 rounded-2xl 
-                  bg-white/90 backdrop-blur-xl shadow-xl
-                  overflow-hidden transition-all duration-700 
-                  flex flex-col h-full
-                  min-h-[250px] sm:min-h-[260px] md:min-h-[280px]
-
-                  group-hover:bg-gradient-to-br
-                  group-hover:from-[#0d8061]
-                  group-hover:via-[#0faa73]
-                  group-hover:to-[#14b383]
-                `,children:[s.jsx("div",{className:`
-                  absolute inset-0 bg-white/10 blur-xl opacity-0
-                  group-hover:opacity-30 transition duration-700
-                `}),s.jsx("div",{className:`
-                  absolute -top-10 -left-10 w-28 h-28 rounded-full 
-                  bg-white/20 blur-2xl opacity-0 transition-all duration-[1200ms]
-                  group-hover:opacity-30 group-hover:translate-x-16 group-hover:translate-y-16
-                `}),s.jsx("div",{className:`
-                  absolute -bottom-10 -right-10 w-40 h-40 rounded-full 
-                  bg-black/10 blur-xl opacity-40 group-hover:opacity-70
-                  animate-[float_4s_ease-in-out_infinite]
-                  transition-all
-                `}),s.jsx("h3",{className:`
-                  text-lg sm:text-xl md:text-2xl font-bold mb-2 
-                  text-[#0F3E2D] transition-all duration-700 group-hover:text-white
-                `,children:f.title}),s.jsx("p",{className:`
-                  text-sm sm:text-[20px] md:text-[15px] leading-relaxed 
-                  text-[#333] font-medium flex-grow transition-all duration-700
-                  group-hover:text-white/90
-                `,children:f.text})]})})},d))}),s.jsx("style",{children:`
-        @keyframes float {
-          0% { transform: translateY(0px); }
-          50% { transform: translateY(-5px); }
-          100% { transform: translateY(0px); }
-        }
-
-        /* Initial mobile hidden state */
+          `}),s.jsx("div",{className:"absolute top-6 left-1/2 -translate-x-1/2 z-30",children:s.jsx("h2",{className:"text-3xl md:text-4xl font-bold text-white drop-shadow-xl text-center"})})]})}),Kg=[{title:"Quality Standard",text:"Our commitment to quality is unwavering. Each product undergoes rigorous testing and adheres to the highest industry standards.",base:"from-[#FFE9D1] via-[#FFF7EE] to-[#E2FFF5]"},{title:"Product Uniqueness",text:"Discover unparalleled innovation with our unique products crafted to complement your healthy lifestyle.",base:"from-[#FDE8F2] via-[#FFF4E5] to-[#E4FFF3]"},{title:"Production Management",text:"At the heart of our operations lies a seamless production management system dedicated to precision and excellence.",base:"from-[#F3E9FF] via-[#FFF4E5] to-[#E6FFF4]"}],Fg=()=>{const i=T.useRef([]);return T.useEffect(()=>{if(!(window.innerWidth<768))return;const d=new IntersectionObserver(r=>{r.forEach(m=>{m.isIntersecting&&m.target.classList.add("mobile-active")})},{threshold:.2});return i.current.forEach(r=>r&&d.observe(r)),()=>d.disconnect()},[]),s.jsxs("section",{className:"w-full py-16 md:py-20 px-4 bg-[#F8FFF4]",children:[s.jsx("p",{className:"text-center text-sm md:text-base font-semibold text-[#0d8061] mb-2",children:"PREMIUM PRODUCTS"}),s.jsx("h2",{className:"text-2xl sm:text-3xl md:text-4xl font-extrabold text-center text-[#0F3E2D] mb-12",children:"Elevate your lifestyle with premium products tailored for your health."}),s.jsx("div",{className:"max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8",children:Kg.map((f,d)=>s.jsx("div",{ref:r=>i.current[d]=r,className:"group relative mobile-card",children:s.jsx("div",{className:`p-[2px] rounded-2xl h-full bg-gradient-to-r ${f.base}
+              shadow-[0_0_18px_rgba(0,0,0,0.08)]
+              transition-all duration-700 group-hover:scale-[1.02] group-hover:-translate-y-1`,children:s.jsxs("div",{className:`relative p-6 md:p-7 rounded-2xl bg-white/90 backdrop-blur-xl shadow-xl
+                overflow-hidden transition-all duration-700 flex flex-col h-full min-h-[250px]
+                group-hover:bg-gradient-to-br group-hover:from-[#0d8061] group-hover:via-[#0faa73] group-hover:to-[#14b383]`,children:[s.jsx("h3",{className:"text-lg md:text-2xl font-bold mb-2 text-[#0F3E2D] group-hover:text-white",children:f.title}),s.jsx("p",{className:"text-sm md:text-[15px] text-[#333] group-hover:text-white/90",children:f.text})]})})},d))}),s.jsx("style",{children:`
+        
+        /* ⭐ INITIAL MOBILE STATE */
         .mobile-card {
-          transition: all 0.9s ease-out;
           opacity: 0;
-          transform: translateY(30px) scale(0.95);
+          transform: translateY(50px) scale(0.85);
+          filter: blur(8px);
+          transition: all 0.9s cubic-bezier(0.22, 1, 0.36, 1);
         }
 
-        /* When card comes into view */
+        /* ⭐ WHEN VISIBLE (STRONG ANIMATION) */
         .mobile-active {
           opacity: 1 !important;
-          transform: translateY(0) scale(1.04);
-          box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+          transform: translateY(0) scale(1);
+          filter: blur(0px);
+          box-shadow: 0 12px 35px rgba(0,0,0,0.15);
         }
+
       `})]})},Jg="/emas1/assets/01-CQZn5sNK.jpeg",kg="/emas1/assets/02-5_-Nolc-.jpeg",Wg="/emas1/assets/03-C-ipz0xg.jpeg",$g="/emas1/assets/04-Dve3iKA4.jpeg",Ig="/emas1/assets/05-BCfMoscC.jpeg",Pg="/emas1/assets/06-VixOsJrj.jpeg",Bn=[Jg,kg,Wg,$g,Ig,Pg],ev=()=>{const[i,f]=T.useState(0),[d,r]=T.useState(!0);T.useEffect(()=>{const E=setInterval(()=>{r(!1),setTimeout(()=>{f(w=>w===Bn.length-1?0:w+1),r(!0)},200)},3e3);return()=>clearInterval(E)},[]);const m=()=>{r(!1),setTimeout(()=>{f(E=>E===0?Bn.length-1:E-1),r(!0)},200)},g=()=>{r(!1),setTimeout(()=>{f(E=>E===Bn.length-1?0:E+1),r(!0)},200)};return s.jsx("section",{className:`w-full flex justify-center px-4 py-10 md:py-14
       bg-gradient-to-b from-[#0A7A5C] via-[#0E8F67] to-[#0B6A50] select-none`,children:s.jsxs("div",{className:`
           relative w-full max-w-7xl rounded-3xl overflow-hidden
