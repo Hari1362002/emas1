@@ -167,20 +167,17 @@ www.emasindia.com`}].map((i,f)=>s.jsxs("div",{className:"flex items-start gap-3 
                   `,children:s.jsx(og,{size:18,className:"md:size-22"})})]}),s.jsx("img",{src:Vm,alt:"Oori",className:"w-28 md:w-32 opacity-90"})]})]}),s.jsxs("div",{className:"text-center text-gray-500 text-xs sm:text-sm mt-10 md:mt-12",children:["© ",new Date().getFullYear()," EMAS. All rights reserved."]})]})})]}),Sg=({togglePage:i})=>{const[f,d]=T.useState(!1),[r,m]=T.useState(!1),[g,E]=T.useState(!1),w=T.useRef(null),b=T.useRef(null);T.useEffect(()=>{const q=Q=>{w.current&&!w.current.contains(Q.target)&&d(!1),b.current&&!b.current.contains(Q.target)&&m(!1)};return document.addEventListener("mousedown",q),()=>document.removeEventListener("mousedown",q)},[]);const v=()=>{B(),i("login")},C=()=>{E(q=>!q),m(!1),d(!1),window.scrollTo({top:0,behavior:"smooth"})},A=()=>{m(q=>!q),E(!1)},B=()=>{E(!1),m(!1),d(!1)};return s.jsxs(s.Fragment,{children:[s.jsx("header",{className:`
           w-full fixed top-0 left-0 z-[1000]
           bg-gradient-to-r from-[#e4fcef] to-[#f9fffb]
-          shadow-md backdrop-blur-xl 
-          border-b border-white/40
-        `,children:s.jsxs("div",{className:`
-          max-w-7xl mx-auto px-4 lg:px-6 py-3 
-          flex items-center justify-between
-        `,children:[s.jsx("img",{src:$s,className:"w-24 md:w-32 cursor-pointer select-none",alt:"EMAS",onClick:()=>i(null)}),s.jsxs("div",{className:`
+          shadow-md backdrop-blur-xl border-b border-white/40
+        `,children:s.jsxs("div",{className:"max-w-7xl mx-auto px-4 lg:px-6 py-3 flex items-center justify-between",children:[s.jsx("img",{src:$s,className:"w-24 md:w-32 cursor-pointer select-none",alt:"EMAS",onClick:()=>i(null)}),s.jsxs("div",{className:`
             hidden md:flex items-center gap-3
             w-[350px] lg:w-[450px]
             bg-white/90 border border-green-300
             rounded-full px-4 py-2 shadow-sm
           `,children:[s.jsx(Qs,{className:"text-green-800 text-xl"}),s.jsx("input",{placeholder:"Search products...",className:"w-full bg-transparent outline-none text-gray-700"})]}),s.jsxs("div",{className:"hidden md:flex items-center gap-6 text-green-900",children:[s.jsx(Ua,{icon:s.jsx(yg,{}),label:"Home",onClick:()=>i(null)}),s.jsx(Ua,{icon:s.jsx(bm,{}),label:"Wishlist"}),s.jsx(Ua,{icon:s.jsx(Sm,{}),label:"Account",onClick:v}),s.jsx(Eg,{open:f,setOpen:d,refObj:w,togglePage:i})]}),s.jsxs("div",{className:"flex md:hidden items-center gap-4 text-green-900",children:[s.jsx(Ua,{icon:s.jsx(Qs,{}),label:"Search",onClick:C}),s.jsx(Ua,{icon:s.jsx(bm,{}),label:"Wishlist"}),s.jsx(Ua,{icon:s.jsx(Sm,{}),label:"Account",onClick:v}),s.jsx(jg,{open:r,toggleOpen:A,refObj:b,togglePage:i})]})]})}),g&&s.jsx("div",{className:`
-          w-full bg-white px-4 py-3 shadow-md md:hidden 
-          mt-[72px] animate-slideDown
-        `,children:s.jsxs("div",{className:"flex items-center gap-3 border border-green-300 rounded-full px-4 py-2",children:[s.jsx(Qs,{className:"text-green-800 text-xl"}),s.jsx("input",{placeholder:"Search products...",className:"w-full bg-transparent outline-none text-gray-700"})]})}),s.jsx("style",{children:`
+            fixed top-[72px] left-0 w-full z-[999]
+            bg-white px-4 py-3 shadow-md md:hidden
+            animate-slideDown
+          `,children:s.jsxs("div",{className:"flex items-center gap-3 border border-green-300 rounded-full px-4 py-2",children:[s.jsx(Qs,{className:"text-green-800 text-xl"}),s.jsx("input",{placeholder:"Search products...",className:"w-full bg-transparent outline-none text-gray-700"})]})}),s.jsx("style",{children:`
         @keyframes slideDown {
           from { opacity: 0; transform: translateY(-10px); }
           to   { opacity: 1; transform: translateY(0); }
@@ -189,30 +186,28 @@ www.emasindia.com`}].map((i,f)=>s.jsxs("div",{className:"flex items-start gap-3 
           animation: slideDown .25s ease-out;
         }
       `})]})},Ua=({icon:i,label:f,onClick:d})=>s.jsxs("div",{className:"group relative cursor-pointer",onClick:d,children:[s.jsx("div",{className:`
-      w-10 h-10 md:w-12 md:h-12 flex items-center justify-center
+      w-10 h-10 md:w-12 md:h-12 flex items-center justify-center 
       rounded-full bg-white border border-green-300
-      shadow-sm transition hover:bg-green-100 active:scale-95
+      shadow-sm hover:bg-green-100 active:scale-95 transition
     `,children:i}),s.jsx("span",{className:`
       absolute -bottom-7 left-1/2 -translate-x-1/2
       bg-[#0d8061] text-white text-[10px] md:text-xs
-      px-2 py-1 rounded-full opacity-0 group-hover:opacity-100
-      transition
+      px-2 py-1 rounded-full opacity-0 group-hover:opacity-100 transition
     `,children:f})]}),Eg=({open:i,setOpen:f,refObj:d,togglePage:r})=>s.jsxs("div",{className:"relative",ref:d,children:[s.jsx("button",{onClick:()=>f(m=>!m),className:`
-        w-12 h-12 bg-white border border-green-300
-        rounded-full shadow flex items-center justify-center
-        hover:bg-green-100
+        w-12 h-12 bg-white border border-green-300 rounded-full
+        shadow flex items-center justify-center hover:bg-green-100
       `,children:s.jsx(Gm,{className:`text-2xl transition ${i?"rotate-180":""}`})}),s.jsxs("div",{className:`
       absolute right-0 mt-2 w-48 bg-white border shadow-xl rounded-xl
-      transition-all origin-top py-3 z-[1000]
+      py-3 transition-all origin-top z-[1000]
       ${i?"scale-100 opacity-100":"scale-90 opacity-0 pointer-events-none"}
     `,children:[s.jsx(di,{label:"About Us",icon:s.jsx(Xm,{}),onClick:()=>{r("about"),f(!1)}}),s.jsx(di,{label:"Contact",icon:s.jsx(Zm,{}),onClick:()=>{r("contact"),f(!1)}})]})]}),jg=({open:i,toggleOpen:f,refObj:d,togglePage:r})=>s.jsxs("div",{className:"relative",ref:d,children:[s.jsx("button",{onClick:f,className:`
         w-9 h-9 bg-white border border-green-300 rounded-full
         shadow flex items-center justify-center hover:bg-green-100
       `,children:s.jsx(Gm,{className:`text-lg transition ${i?"rotate-180":""}`})}),s.jsxs("div",{className:`
       absolute right-0 mt-2 w-44 bg-white border shadow-xl rounded-xl
-      py-3 z-[1000] transition-all
+      py-3 transition-all z-[1000]
       ${i?"scale-100 opacity-100":"scale-90 opacity-0 pointer-events-none"}
-    `,children:[s.jsx(di,{label:"About Us",icon:s.jsx(Xm,{}),onClick:()=>{r("about"),f()}}),s.jsx(di,{label:"Contact",icon:s.jsx(Zm,{}),onClick:()=>{r("contact"),f()}})]})]}),di=({icon:i,label:f,onClick:d})=>s.jsxs("div",{className:"flex items-center gap-3 px-4 py-2 hover:bg-green-100 cursor-pointer text-sm",onClick:d,children:[i," ",f]}),Ng="/emas1/assets/e5-CKy_m_Rh.jpg",zg="/emas1/assets/e6-DHF1m0Bj.jpg",Tg="/emas1/assets/e7-j4KZv3if.jpg",Ag="/emas1/assets/e8-DzGpzVPL.jpg",wg="/emas1/assets/e9-CABm4J5k.jpg",Og="/emas1/assets/e10-C3jIQZiQ.jpg",Mg="/emas1/assets/e11-ppH2N8MT.jpg",Dg="/emas1/assets/e12-Bmk_xsdP.jpg",Cg="/emas1/assets/s13-Pw-PCKZj.jpeg",_g="/emas1/assets/s14-CA0b_X2B.jpeg",Rg="/emas1/assets/s15-2Mqi5leb.jpeg",Ug="/emas1/assets/s16-Du7EjIAl.jpeg",Hg="/emas1/assets/s17-4FuAcQAl.jpeg",Bg="/emas1/assets/s18-nGXIn-Tv.jpeg",Hn=[Ng,zg,Tg,Ag,wg,Og,Mg,Dg,Cg,_g,Rg,Ug,Hg,Bg],Yg=()=>{const[i,f]=T.useState(0),[d,r]=T.useState(!0);return T.useEffect(()=>{const m=setInterval(()=>{r(!1),setTimeout(()=>{f(g=>g===Hn.length-1?0:g+1),r(!0)},200)},3e3);return()=>clearInterval(m)},[]),s.jsx("section",{className:`
+    `,children:[s.jsx(di,{label:"About Us",icon:s.jsx(Xm,{}),onClick:()=>{r("about"),f()}}),s.jsx(di,{label:"Contact",icon:s.jsx(Zm,{}),onClick:()=>{r("contact"),f()}})]})]}),di=({icon:i,label:f,onClick:d})=>s.jsxs("div",{className:"flex items-center gap-3 px-4 py-2 text-sm hover:bg-green-100 cursor-pointer",onClick:d,children:[i," ",f]}),Ng="/emas1/assets/e5-CKy_m_Rh.jpg",zg="/emas1/assets/e6-DHF1m0Bj.jpg",Tg="/emas1/assets/e7-j4KZv3if.jpg",Ag="/emas1/assets/e8-DzGpzVPL.jpg",wg="/emas1/assets/e9-CABm4J5k.jpg",Og="/emas1/assets/e10-C3jIQZiQ.jpg",Mg="/emas1/assets/e11-ppH2N8MT.jpg",Dg="/emas1/assets/e12-Bmk_xsdP.jpg",Cg="/emas1/assets/s13-Pw-PCKZj.jpeg",_g="/emas1/assets/s14-CA0b_X2B.jpeg",Rg="/emas1/assets/s15-2Mqi5leb.jpeg",Ug="/emas1/assets/s16-Du7EjIAl.jpeg",Hg="/emas1/assets/s17-4FuAcQAl.jpeg",Bg="/emas1/assets/s18-nGXIn-Tv.jpeg",Hn=[Ng,zg,Tg,Ag,wg,Og,Mg,Dg,Cg,_g,Rg,Ug,Hg,Bg],Yg=()=>{const[i,f]=T.useState(0),[d,r]=T.useState(!0);return T.useEffect(()=>{const m=setInterval(()=>{r(!1),setTimeout(()=>{f(g=>g===Hn.length-1?0:g+1),r(!0)},200)},3e3);return()=>clearInterval(m)},[]),s.jsx("section",{className:`
         w-full flex justify-center px-4
         py-8 md:py-12
         bg-gradient-to-b from-[#0A7A5C] via-[#0E8F67] to-[#0B6A50]
